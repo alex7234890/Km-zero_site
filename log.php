@@ -44,10 +44,11 @@ div {
 </style>
 <body>
 
-<h3>REGISTRAZIONE</h3>
+<h3>LOGIN</h3>
 
 <div>
-  <form action="./insert.php" method="POST">
+  <form action="./login.php" method="POST">
+
     <label for="fname">Username</label>
     <input type="text" id="user" name="user" placeholder="user">
 
@@ -65,30 +66,8 @@ div {
           }
     </script>
   </br>
-    <label for="lname">Nome</label>
-    <input type="text" id="nome" name="nome" placeholder="nome">
-
-    <label for="lname">Cognome</label>
-    <input type="text" id="cognome" name="cognome" placeholder="cognome">
-
-    <label for="lname">Eta</label>
-        </br>
-    <input type="number" id="eta" name="eta" min="10" max="100">
-
-          
-    </br>
-        </br>
-       <label for="lname">indirizzo</label>
-    <input type="text" id="indirizzo" name="indirizzo" placeholder="indirizzo">
-
-    </br>
-        </br>
-
-    <label for="lname">mail</label>
-    </br>
-    <input type="email" id="mail" name="mail">
-    
-    <input type="submit" value="REGISTRATI">
+  
+    <input type="submit" value="login">
   </form>
 </div>
 
